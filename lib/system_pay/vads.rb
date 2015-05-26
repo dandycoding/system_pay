@@ -250,7 +250,7 @@ module SystemPay
     end
 
     def sorted_array
-      (instance_variables_array + self.class.class_variables_array).uniq.sort
+      (instance_variables_array.reject { |e| e[1].to_s.empty? } + self.class.class_variables_array.reject { |e| e[1].to_s.empty? }).uniq.sort
     end
 
     def sorted_values
