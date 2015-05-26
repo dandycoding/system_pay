@@ -123,7 +123,7 @@ module SystemPay
       :vads_trans_id, :vads_url_cancel, :vads_url_error, :vads_url_referral, :vads_url_refused, :vads_url_success,
       :vads_url_return, :vads_cust_first_name, :vads_cust_last_name, :vads_sub_desc, :vads_sub_init_amount,
       :vads_sub_init_amount_number, :vads_sub_amount, :vads_sub_currency, :vads_sub_effect_date, :vads_identifier,
-      :vads_page_action, :vads_payment_config
+      :vads_page_action, :vads_payment_config, :vads_url_check, :vads_shop_name, :vads_shop_url
 
 
     # Public: Creation of new instance.
